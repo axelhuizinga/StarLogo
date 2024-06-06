@@ -1,2 +1,2 @@
-# 3star
-cad app based on three.js
+# StarLogo
+cad app based on JSCAD
