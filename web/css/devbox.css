@@ -1,0 +1,11 @@
+.site-content-container {
+	display: flex;
+	flex-direction: column;
+	flex-grow: 1;
+	justify-content: center;
+	align-items: center;
+}
+
+.site-content {
+  margin: auto;
+}

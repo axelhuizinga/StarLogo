@@ -1,0 +1,32 @@
+<html>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>JSCad DevBox</title>
+    <link rel='stylesheet' type='text/css' href='css/devbox.css'/>
+</head>
+<body>
+<script>
+    function redNose()
+    {
+        if(document.getElementById('Deer__MA_Nose').getAttribute('diffuseColor')!= '1 0 0')
+            document.getElementById('Deer__MA_Nose').setAttribute('diffuseColor', '1 0 0');
+        else
+            document.getElementById('Deer__MA_Nose').setAttribute('diffuseColor', '0 0 0');
+    }
+</script>
+<div class="site-content-container">
+    <div id='jscad'></div>
+    <script language="javascript" src="./dist/jscad-web.min.js"></script> 
+    <script language="javascript">
+      const el1 = document.getElementById('jscad')
+      const jscadInst1 = jscadWeb(el1, {name: 'jscad1'})
+    </script>
+    <script language="javascript">
+      window.addEventListener('beforeunload', (event) => {
+        event.preventDefault()
+        event.returnValue = ''
+      })
+    </script>
+</div>
+</body>
+</html>

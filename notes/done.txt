@@ -1,0 +1,18 @@
+##############
+##############
+axel@pc1:/opt/src/StarLogo$ rsync -lrt --exclude="*/node_modules" dev.econet4.me:/opt/bin/OpenJSCAD.org/packages/web .
+starlogo-2.1.x3d
+##############
+<scene render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" bboxdisplay="false" bboxmargin="0.01" bboxcolor="1,1,0" pickmode="idBuf" dopickpass="true" shadowobjectidmapping="">
+                    <viewpoint position="-1.94639 1.79771 -2.89271" orientation="0.03886 0.99185 0.12133 3.75685" bind="false" description="" isactive="false" nearclippingplane="-1" farclippingplane="-1" viewall="false" fieldofview="0.785398" centerofrotation="0,0,0" znear="-1" zfar="-1"></viewpoint>
+                    <inline namespacename="Deer" mapdeftoid="true" onclick="redNose();" url="round.x3d" render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" bboxdisplay="false" bboxmargin="0.01" bboxcolor="1,1,0" load="true" description="" contenttype="">
+            <Transform rotation="1 0 0 -1.5708" render="true" visible="true" bboxCenter="0,0,0" bboxSize="-1,-1,-1" bboxDisplay="false" bboxMargin="0.01" bboxColor="1,1,0" center="0,0,0" translation="0,0,0" scale="1,1,1" scaleOrientation="0,0,0,0">
+      <Shape render="true" visible="true" bboxCenter="0,0,0" bboxSize="-1,-1,-1" bboxDisplay="false" bboxMargin="0.01" bboxColor="1,1,0" isPickable="true" idOffset="0">
+      
+<!--        </IndexedTriangleSet>-->
+        <Appearance sortType="auto" sortKey="0" alphaClipThreshold="0.1">
+          <Material diffuseColor="1 0.5 0.3" transparency="0.4" ambientIntensity="0.2" emissiveColor="0,0,0" shininess="0.2" specularColor="0,0,0"></Material>
+        </Appearance>
+      </Shape>
+    </Transform></inline><matrixtransform render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" bboxdisplay="false" bboxmargin="0.01" bboxcolor="1,1,0" matrix="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"><inline render="false" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" bboxdisplay="false" bboxmargin="0.01" bboxcolor="1,1,0" url="" load="true" description="" namespacename="" contenttype="" mapdeftoid="false"></inline></matrixtransform><matrixtransform render="true" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" bboxdisplay="false" bboxmargin="0.01" bboxcolor="1,1,0" matrix="1,0,0,0,0,1,0,0,0,0,1,0,0,0,0,1"><inline render="false" visible="true" bboxcenter="0,0,0" bboxsize="-1,-1,-1" bboxdisplay="false" bboxmargin="0.01" bboxcolor="1,1,0" url="" load="true" description="" namespacename="" contenttype="" mapdeftoid="false"></inline></matrixtransform></scene>
+##############

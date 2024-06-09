@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en">
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <title>JSCad DevBox</title>
+    <script type='text/javascript' src='js/x3dom.debug.js'> </script>
+    <link rel='stylesheet' type='text/css' href='css/x3dom.css'/>
+    <link rel='stylesheet' type='text/css' href='css/devbox.css'/>
+</head>
+<body>
+<script>
+    function redNose()
+    {
+        if(document.getElementById('Deer__MA_Nose').getAttribute('diffuseColor')!= '1 0 0')
+            document.getElementById('Deer__MA_Nose').setAttribute('diffuseColor', '1 0 0');
+        else
+            document.getElementById('Deer__MA_Nose').setAttribute('diffuseColor', '0 0 0');
+    }
+    
+    function getInfo(el){
+		console.log(el);
+	}
+		
+</script>
+<div class="site-content-container">
+<x3d width='100vh' height='100vh' class="site-content">
+    <scene>
+        <viewpoint position="0.0 0.0 400.0" orientation="0.0 0.0 0.0 0.0"></viewpoint>
+        <Inline nameSpaceName="starlogo" mapDEFToID="true" onclick='getInfo(this);' url="round.x3d"></Inline>
+    </scene>
+</x3d>
+</div>
+</body>
+</html>
